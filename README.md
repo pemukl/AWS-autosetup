@@ -10,5 +10,6 @@ On the respective instances setup_sceduler.sh and setup_worker.sh is run which s
 This requires serveral things in order to work:
 - you must have set your AWS credentials, template ID and a ssh link to your private github repo in `config.sh`.
 - Make sure the networking settings in the template are set correctly and the instances can communicate within each other in the template.
+- MAke sure your ssh agent knows your private key to access the EC2 instances. A tutorial for Mac can be found [here](https://www.howtogeek.com/devops/how-to-add-your-ec2-pem-file-to-your-ssh-keychain/).
 - Make sure your ssh agent knows a private key for your github and forwards it. See a tutorial [here](https://docs.github.com/en/developers/overview/using-ssh-agent-forwarding).
 - you must have installed [Byobu](https://www.byobu.org/) (thats an awesome terminal multiplexer. You can switch tabs by pressing "ctl+a" and then "n")
