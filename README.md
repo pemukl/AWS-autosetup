@@ -15,3 +15,7 @@ This requires serveral things in order to work:
 - Make sure your ssh agent knows your private key to access the EC2 instances. A tutorial for Mac can be found [here](https://www.howtogeek.com/devops/how-to-add-your-ec2-pem-file-to-your-ssh-keychain/).
 - Make sure your ssh agent knows a private key for your github and forwards it. See a tutorial [here](https://docs.github.com/en/developers/overview/using-ssh-agent-forwarding).
 - You must have installed [Byobu](https://www.byobu.org/) (thats an awesome terminal multiplexer. You can switch tabs by pressing "ctl+a" and then "n")
+
+
+In the end it should look like this:
+<img width="699" alt="image" src="https://user-images.githubusercontent.com/23077581/199630577-c9fb8e96-28f5-4588-883a-d1117411450e.png">
