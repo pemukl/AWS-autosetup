@@ -1,5 +1,5 @@
 # AWS-autosetup
-Scripts created in the realms of DSC102 at UCSD. Spins up four instances and one worker and automatically connects them into a cluster.
+Scripts created in the realms of DSC102 at UCSD. Spins up four workers and one scheduler. They are also automatically connected in order to form a cluster.
 
 First, clone this repo by executing `git clone git@github.com:pemukl/AWS-autosetup.git` in a terminal. Change the directory by running `cd AWS-autosetup`.
 
