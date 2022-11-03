@@ -1,7 +1,9 @@
 # AWS-autosetup
 Scripts created in the realms of DSC102 at UCSD. Spins up four instances and one worker and automatically connects them into a cluster.
 
-There are mainly two scripts you can run:
+First, clone this repo by executing `git clone git@github.com:pemukl/AWS-autosetup.git` in a terminal. Change the directory by running `cd AWS-autosetup`.
+
+Now, there are mainly two scripts you can run:
 - `source launch.sh`: Spins up five instances on your AWS based on an existing template and starts setting them up with setup.sh .
 - `source setup.sh`: Retrieves the ip adresses of your five instances and saves them to ips.txt. The first gets the sceduler and the other four are Workers. This can be run if you already have set up five instances on AWS.
 
