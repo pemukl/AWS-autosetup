@@ -5,7 +5,7 @@ There are mainly two scripts you can run:
 - `source launch.sh`: Spins up five instances on your AWS based on an existing template and starts setting them up with setup.sh .
 - `source setup.sh`: Retrieves the ip adresses of your five instances and saves them to ips.txt. The first gets the sceduler and the other four are Workers. This can be run if you already have set up five instances on AWS.
 
-On the respective instances setup_sceduler.sh and setup_worker.sh is run which starts the S3 download, the respective Dask demon and jupyter notebook. The workers are connected to the scheduler Further a tunnes from the local machine port 8000 and 8001 is estabished to the jupyter notebook and the dask dashboard.
+On the respective instances setup_sceduler.sh and setup_worker.sh is run which starts the S3 download, the respective Dask demon and jupyter notebook. The workers are connected to the scheduler Further a tunnel from `localhost:8000` and `localhost:8001` is estabished to the jupyter notebook and the dask dashboard on the sceduler.
 
 This requires serveral things in order to work:
 - You must have set your AWS credentials, template ID and a ssh link to your private github repo in `config.sh`.
