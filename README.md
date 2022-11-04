@@ -6,6 +6,7 @@ First, clone this repo by executing `git clone git@github.com:pemukl/AWS-autoset
 These scripts now require serveral things in order to work:
 - Create a template in AWS that will be a blueprint for your instances. Make sure the networking settings in the template are set correctly and the instances created from the template can communicate within each other.
 - In `config.sh`, you must have set your AWS credentials, template ID and a ssh link to your private github repo.
+- Install [AWS-cli](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 - Make sure your ssh agent knows your private key to access the EC2 instances. A tutorial for Mac can be found [here](https://www.howtogeek.com/devops/how-to-add-your-ec2-pem-file-to-your-ssh-keychain/).
 - Make sure your ssh agent knows a private key for your personal, private github and forwards it. See a tutorial [here](https://docs.github.com/en/developers/overview/using-ssh-agent-forwarding).
 - You must have installed [Byobu](https://www.byobu.org/) (thats an awesome terminal multiplexer.)
